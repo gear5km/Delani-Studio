@@ -1,0 +1,141 @@
+.delani-studio-background-1-container{
+    height: 740px;
+    width: fill;
+    background-image: url("Backgrounds/background-image-1.jpg");
+    background-size:cover;
+    
+}
+/* Use "position: absolute" to fix the location of an element/div in a container */
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    /* Use "transform: translate (x axis, y axis) to make additional movement changes to your div */
+    transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+    
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform:translateY(200%);
+
+}
+
+
+
+.about-us-container{
+    height: 250px;
+    background-color:white;
+    font-family:'Ubuntu', sans-serif;
+
+}
+
+.about-us-heading{
+    position: absolute;
+    margin-left:38%;
+    
+
+}
+
+.about-us-text{
+    position:absolute;
+    margin-left:50px;
+    margin-right:70px;
+    text-align:center;
+    font-size:18;
+}
+
+.newsection{
+/*use "position:relative" for divs that have to flow on top of each other, otherwise there will be overlap due to previous divs declared "absolute" */
+    position:relative;
+    background-image: url("Backgrounds/background-image-2.jpg");
+    height: 400px;
+    width: fill;
+    text-align: center;
+    color:white;
+
+}
+
+.center{
+    position:relative;
+    top:20%;
+    padding: 55px;
+
+    
+}
+    
+
+
+.WhatWeDo{
+    height:250px;
+    text-align:center;
+
+    
+
+
+}
+
+/*.wwd-design{
+    /*background-image:url("services_icons/design_icon.png");*/
+/*}
+
+/*.wwd-dev{
+   /* background-image:url("services_icons/dev_icon.png");*/
+/*}
+
+/*.wwd-product{
+    /*background-image:url("services_icons/product_icon.png");*/
+/*}*/
+
+.PortfolioText{
+    text-align:center;
+}
+.row-section-1{
+    padding-left: 105px;
+    padding-right:80px;
+
+}
+.row-section-2{
+    padding-top: 25px;
+    padding-left:105px;
+    padding-right:80px;
+    padding-bottom: 35px;
+}
+
+
+.Contact-Us{
+    background-image:url("Backgrounds/c_image.jpg");
+    height: 450px;
+    width: fill;
+}
+
+.CenteredInput{
+    position: relative;
+    left: 30%;
+}
+
+.social-media-links{
+    padding-top: 45px;
+    padding-left:20%;
+}
+
+.social-media-copyright{
+    position: absolute;
+    left: 46%;
+    text-align: center;
+}
+
+input[type="text"]
+{   background: transparent;
+    border: solid white 1px;
+    color: white;
+
+}
+
+::placeholder{
+    color:white;
+}
