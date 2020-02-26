@@ -94,6 +94,15 @@
 .PortfolioText{
     text-align:center;
 }
+
+.portfolio-image-1{
+
+    position:relative;
+    visibility:visible;
+
+}
+
+
 .row-section-1{
     padding-left: 105px;
     padding-right:80px;
