@@ -18,10 +18,61 @@ jQuery(document).ready(function()
 			})
 		})
 
+		jQuery(".portfolio-image-2").mouseover(function(){
 
+				$("#main2").animate({
+					opacity:'0.5'
+				})
+
+
+		}).mouseout(function(){
+			$("#main2").animate({
+				opacity:'1'
+			})
+		})
+
+		jQuery(".portfolio-image-3").mouseover(function(){
+
+			$("#main3").animate({
+				opacity:'0.5'
+			})
+
+
+		}).mouseout(function(){
+		$("#main3").animate({
+			opacity:'1'
+		})
+	})
+
+		jQuery(".portfolio-image-4").mouseover(function(){
+
+			$("#main4").animate({
+				opacity:'0.5'
+			})
+
+
+			}).mouseout(function(){
+			$("#main4").animate({
+				opacity:'1'
+			})
+			})
+
+
+
+		jQuery(".portfolio-image-5").mouseover(function(){
+
+			$("#main5").animate({
+				opacity:'0.5'
+			})
+	
+	
+			}).mouseout(function(){
+				$("#main5").animate({
+				opacity:'1'
+				})
+			})
 		
 		
 									
 		
-		
-	})
+})

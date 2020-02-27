@@ -118,13 +118,29 @@
 
 .Contact-Us{
     background-image:url("Backgrounds/c_image.jpg");
-    height: 450px;
+    height: 550px;
     width: fill;
 }
 
 .CenteredInput{
     position: relative;
-    left: 30%;
+    left: 15%; 
+}
+
+#UserFeedBack
+{
+    position:relative;
+    width: 55em;
+    height: 20em;
+    
+}
+
+.submitButton{
+    
+    position: relative;
+    left: 42%;
+    top: 20px;
+
 }
 
 .social-media-links{
@@ -144,6 +160,13 @@ input[type="text"]
     color: white;
 
 }
+
+button[type="button"]
+    {
+        background:transparent;
+        color:white;
+        font-weight: bold;
+    }
 
 ::placeholder{
     color:white;
