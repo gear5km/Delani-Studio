@@ -1,5 +1,25 @@
 jQuery(document).ready(function()
-{	
+{
+/******************************************************************************************************************************************* 
+ * Animation Script For the "What We DO" Section
+ ********************************************************************************************************************************************/	
+		jQuery(".wwd-design").mouseover(function(){
+			$(".wwd-design").animate({
+				opacity:'0.5'
+			})
+			$(".design").show();
+
+
+
+		}).mouseout(function(){
+			$(".wwd-design").animate({
+				opacity:'1'
+			})
+			$(".design").hide();
+		})
+/****************************************************************************************************************************************** 
+ Animation Script For the Portfolio Images	
+********************************************************************************************************************************************/
 		alert("JQuery is running");
 		//Use the "jQuery("[DOM name]").mouseover(function(){})" to create a task when the mouse goes over an element
 		jQuery(".portfolio-image-1").mouseover(function(){
@@ -71,7 +91,46 @@ jQuery(document).ready(function()
 				opacity:'1'
 				})
 			})
+
+
+		jQuery(".portfolio-image-6").mouseover(function(){
+
+			$("#main6").animate({
+				opacity:'0.5'
+			})
+	
+	
+			}).mouseout(function(){
+				$("#main6").animate({
+				opacity:'1'
+				})
+			})
+
+		jQuery(".portfolio-image-7").mouseover(function(){
+
+				$("#main7").animate({
+					opacity:'0.5'
+				})
 		
+		
+				}).mouseout(function(){
+					$("#main7").animate({
+					opacity:'1'
+					})
+				})
+				
+		jQuery(".portfolio-image-8").mouseover(function(){
+
+					$("#main8").animate({
+						opacity:'0.5'
+					})
+			
+			
+					}).mouseout(function(){
+						$("#main8").animate({
+						opacity:'1'
+						})
+					})			
 		
 									
 		
