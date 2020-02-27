@@ -2,19 +2,18 @@ The Delani Studio Webpage
 
 [Delani Studio](https://gear5km.github.io/Delani-Studio/)
 
-# project description, 
+## Project Description 
 
 This is the Delani Design Studio Company HomePage
-# author, 
-
+## author 
 Kimani Mbatia
-# technologies used, 
+## technologies used, 
 Main page written in HTML and styled in CSS
 Portfolio section animated with JQuery library
 User input section scripted with JavaScript
-# dependencies
+## dependencies
 requires: 
-## files
+### files
 index.html (Front Page)
 jquery-3.4.1.js (With JQuery Libraries)
 scripts.js (Personalised JQuery Commands)
@@ -24,7 +23,7 @@ LICENSE (Contains MIT license)
 logo.png (Contains Delani Studio logo)
 mouse_click.png (Contains mouse image)
 README.md (contains ReadMe as written here)
-## folders
+### folders
 Backgrounds (Contains all background images)
 css (Contains bootstrap css libraries)
 js (Contains Bootstrap js libraries)
@@ -35,6 +34,9 @@ social_icons (Contains all Social media icons found at bottom of the webpage)
 
 
 
-# setup & installation instructions,
+## setup & installation instructions
+Webpage can be launched by clicking [here](https://gear5km.github.io/Delani-Studio/)
+Or on the link at the top of this readme
 
-# contact & license information
+## contact & license information
+Standard MIT license
