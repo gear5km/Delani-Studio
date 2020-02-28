@@ -5,15 +5,15 @@ The Delani Studio Webpage
 ## Project Description 
 
 This is the Delani Design Studio Company HomePage
-## author 
+## Author 
 Kimani Mbatia
-## technologies used, 
+## Technologies used, 
 Main page written in HTML and styled in CSS
 Portfolio section animated with JQuery library
 User input section scripted with JavaScript
-## dependencies
+## Dependencies
 requires: 
-### files
+### Files
 index.html (Front Page)
 jquery-3.4.1.js (With JQuery Libraries)
 scripts.js (Personalised JQuery Commands)
@@ -23,7 +23,7 @@ LICENSE (Contains MIT license)
 logo.png (Contains Delani Studio logo)
 mouse_click.png (Contains mouse image)
 README.md (contains ReadMe as written here)
-### folders
+### Folders
 Backgrounds (Contains all background images)
 css (Contains bootstrap css libraries)
 js (Contains Bootstrap js libraries)
