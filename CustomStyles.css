@@ -29,6 +29,7 @@
 
 .about-us-container{
     height: 250px;
+    width: fill;
     background-color:white;
     font-family:'Ubuntu', sans-serif;
 
