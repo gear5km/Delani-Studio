@@ -36,15 +36,14 @@
 }
 
 .about-us-heading{
-   /* position: relative;
-    margin-left:18%;
-    margin-right: 18%;
-   */ 
+   position: relative;
+   text-align:center;
+   
 
 }
 
 .about-us-text{
-    position:absolute;
+    position:relative;
     margin-left:50px;
     margin-right:50px;
     text-align:center;
