@@ -36,7 +36,8 @@
 
 .about-us-heading{
     position: absolute;
-    margin-left:38%;
+    margin-left:18%;
+    margin-right: 18%;
     
 
 }
@@ -44,7 +45,7 @@
 .about-us-text{
     position:absolute;
     margin-left:50px;
-    margin-right:70px;
+    margin-right:50px;
     text-align:center;
     font-size:18;
 }
