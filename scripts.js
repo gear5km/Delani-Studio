@@ -17,6 +17,21 @@ jQuery(document).ready(function()
 			})
 			$(".design").hide();
 		})
+	
+		jQuery(".wwd-dev").mouseover(function(){
+			$(".wwd-dev").animate({
+				opacity:'0.5'
+			})
+			$(".design").show();
+
+
+
+		}).mouseout(function(){
+			$(".wwd-dev").animate({
+				opacity:'1'
+			})
+			$(".design").hide();
+		})
 /****************************************************************************************************************************************** 
  Animation Script For the Portfolio Images	
 ********************************************************************************************************************************************/
