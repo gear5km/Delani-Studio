@@ -1,7 +1,7 @@
 jQuery(document).ready(function()
 {
 /******************************************************************************************************************************************* 
- * Animation Script For the "What We DO" Section
+ * Animation Script For the "WhatWeDo" Section
  ********************************************************************************************************************************************/	
 		jQuery(".wwd-design").mouseover(function(){
 			$(".wwd-design").animate({
@@ -22,7 +22,7 @@ jQuery(document).ready(function()
 			$(".wwd-dev").animate({
 				opacity:'0.5'
 			})
-			$(".design").show();
+			$(".development").show();
 
 
 
@@ -30,12 +30,27 @@ jQuery(document).ready(function()
 			$(".wwd-dev").animate({
 				opacity:'1'
 			})
-			$(".design").hide();
+			$(".development").hide();
+		})
+
+		jQuery(".wwd-product").mouseover(function(){
+			$(".wwd-dev").animate({
+				opacity:'0.5'
+			})
+			$(".product-management").show();
+
+
+
+		}).mouseout(function(){
+			$(".wwd-product").animate({
+				opacity:'1'
+			})
+			$(".product-management").hide();
 		})
 /****************************************************************************************************************************************** 
- Animation Script For the Portfolio Images	
+ Animation Script For the "Portfolio" section images
 ********************************************************************************************************************************************/
-		alert("JQuery is running");
+		//alert("JQuery is running");
 		//Use the "jQuery("[DOM name]").mouseover(function(){})" to create a task when the mouse goes over an element
 		jQuery(".portfolio-image-1").mouseover(function(){
 			//Use the "".animate({})"" to create an animation for a specified element such as making an image opaque or moving its location

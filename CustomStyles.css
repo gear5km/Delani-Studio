@@ -88,6 +88,16 @@ but space is allocated for it on the page.
 The tag is rendered, it just isn't seen on the page. USE DISPLAY: NONE FOR jQuery .show() function to work*/
     display:none;
 }
+
+.development{
+    font-size:24;
+    display:none;
+}
+
+.product-management{
+    font-size:24;
+    display:none;
+}
 /*.wwd-design{
     /*background-image:url("services_icons/design_icon.png");*/
 /*}
