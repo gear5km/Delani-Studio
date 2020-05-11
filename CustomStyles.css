@@ -1,6 +1,6 @@
 .delani-studio-background-1-container{
     height: 740px;
-    width: fill;
+    width: auto;
     background-image: url("Backgrounds/background-image-1.jpg");
     background-size:cover;
     
@@ -29,7 +29,7 @@
 
 .about-us-container{
     height: 300px;
-    width: fill;
+    width: auto;
     background-color:white;
     font-family:'Ubuntu', sans-serif;
 
@@ -55,7 +55,7 @@
     position:relative;
     background-image: url("Backgrounds/background-image-2.jpg");
     height: 400px;
-    width: fill;
+    width: auto;
     text-align: center;
     color:white;
 
@@ -74,6 +74,7 @@
 .WhatWeDo{
     height:250px;
     text-align:center;
+    width:auto;
 
     
 
@@ -138,7 +139,7 @@ The tag is rendered, it just isn't seen on the page. USE DISPLAY: NONE FOR jQuer
 .Contact-Us{
     background-image:url("Backgrounds/c_image.jpg");
     height: 550px;
-    width: fill;
+    width: auto;
 }
 
 .CenteredInput{
@@ -189,4 +190,36 @@ button[type="button"]
 
 ::placeholder{
     color:white;
+}
+
+
+@media all and (max-width:1000px) {
+
+  .WhatWeDo{
+    height:450px;
+
+  }
+
+  .wwd-design{
+    margin-left:35%;
+    width:100px;
+    height:80px;
+    padding:60px;
+  }
+
+  .wwd-dev{
+    margin-left:35%;
+    width:100px;
+    height:80px;
+    padding:60px;
+  }
+  
+  .wwd-product{
+    margin-left:35%;
+    width:100px;
+    height:80px;
+    padding:60px;
+  }
+   
+
 }
