@@ -4,13 +4,16 @@ The Delani Studio Webpage
 
 ## Project Description 
 
-This is the Delani Design Studio Company HomePage
+Delani Design Studio Company HomePage 
+
 ## Author 
 Kimani Mbatia
+
 ## Technologies used, 
 Main page written in HTML and styled in CSS
 Portfolio section animated with JQuery library
 User input section scripted with JavaScript
+
 ## Dependencies
 requires: 
 ### Files
