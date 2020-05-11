@@ -1,3 +1,5 @@
+//VSM AB339DAV
+
 function UserDetailsInit()
     {
         var userName= document.getElementById("NameInput").value;
