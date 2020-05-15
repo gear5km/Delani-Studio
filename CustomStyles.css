@@ -18,9 +18,9 @@
 }
 
 .bottom-right{
-    position: absolute;
-    bottom: 1px;
-    left: 50%;
+    position: relative;
+    top:615px;
+    left: 49%;
     transform:translateY(200%);
 
 }
